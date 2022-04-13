@@ -1,3 +1,9 @@
+# Crypto Tracker
+
+Built with ReactJs & API from Coingecko.
+
+View the project here: https://cyrptotrackernicolasliutech.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
