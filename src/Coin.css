@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.coin-container{
+    display:flex;
+    justify-content: center;
+}
+
+.coin-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 82px;
+    border-bottom: 1px solid grey;
+    max-width: 960px;
+    background-color: rgb(240, 240, 240);
+    padding:15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.coin-row:hover{
+    background-color: rgb(245, 250, 255);
+    transition: 1s;
+}
+.coin{
+    display:flex;
+    align-items: center;
+    padding-right: 25px;
+    min-width: 300px;
+}
+
+.coin img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin h1{
+    font-size: 16px;
+    width:150px;
+}
+
+.coin-symbol{
+    text-transform: uppercase;
+}
+
+.coin-data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price{
+    width: 110px;
+    margin-right:10px;
+}
+
+.coin-volume{
+    width: 230px;
+}
+
+.coin-marketcap {
+    width: 155px;
+}
+
+.coin-perfect {
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
