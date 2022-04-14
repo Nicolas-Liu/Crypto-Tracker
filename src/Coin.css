@@ -9,6 +9,14 @@
     justify-content: center;
 }
 
+.coin-container{
+    background-color: rgb(240, 240, 240);
+    max-width: 980px;
+    border-radius: 3px;
+    margin:0 auto;
+}
+
+
 .coin-row{
     display:flex;
     flex-direction: row;
@@ -16,10 +24,8 @@
     align-items: center;
     height: 82px;
     border-bottom: 1px solid grey;
-    max-width: 960px;
-    background-color: rgb(240, 240, 240);
-    padding:15px;
-    border-radius: 8px;
+    max-width: 980px;
+    padding:18px;
     cursor: pointer;
 }
 
@@ -67,6 +73,7 @@
 
 .coin-marketcap {
     width: 155px;
+    margin-left: 20px;
 }
 
 .coin-perfect {
@@ -79,4 +86,29 @@
 
 .green{
     color:green;
+}
+
+.titles{
+    display:flex;
+    padding-bottom: 10px;
+    max-width: 840px;
+    margin:0 auto;
+    justify-content: space-around;
+}
+
+.title-push{
+    position: relative;
+    left:80px;
+}
+
+h4{
+    padding:5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h4:hover{
+    background-color: antiquewhite;
+    color: blue;
+    transition: 1s;
 }
