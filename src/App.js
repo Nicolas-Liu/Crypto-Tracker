@@ -36,6 +36,13 @@ function App() {
        </form>
        <p>*All prices are in CAD</p>
      </div>
+     <div className="titles">
+       <h4>Crypto</h4>
+       <h4 className="title-push">Price</h4>
+       <h4 className="title-push" style={{left:"93px"}}>Volume</h4>
+       <h4 className="title-push">24h%</h4>
+       <h4 className="title-push" style={{left:"38px"}}>Market Cap</h4>
+     </div>
      {filteredCoins.map(coin => {
        return(
          <Coin 
